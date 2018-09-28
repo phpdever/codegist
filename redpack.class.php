@@ -60,14 +60,14 @@ class WxRedpack{
             'mch_billno'        => $trade_no,
             'mch_id'            => $config['mch_id'],
             'wxappid'           => $config['wxappid'],
-            'send_name'         => '江南极客',
+            'send_name'         => '章鱼',
             're_openid'         => $openid,
             'total_amount'      => $money * 100, //付款金额单位为分
             'total_num'         => 1,
             'wishing'           => '祝您天天开心！',
             'client_ip'         => self::getip(),
             'act_name'          => $act_name,
-            'remark'            => 'From 江南极客'
+            'remark'            => '章鱼'
         );
         
         $data['sign'] = self::makeSign($data);
