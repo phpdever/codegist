@@ -8,11 +8,11 @@ class WxRedpack{
      */
 
     private $config = array(
-        'wxappid'       => '',
-        'mch_id'        => '',
-        'pay_apikey'    => '',
-        'api_cert'      => '',   
-        'api_key'       => ''
+        'wxappid'       => '', //微信公众号APPID
+        'mch_id'        => '', //微信支付商户号
+        'pay_apikey'    => '', //微信支付秘钥
+        'api_cert'      => '', //微信支付api证书
+        'api_key'       => '' //微信支付api证书
     );
     
     public function __construct($config = array()){
