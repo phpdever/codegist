@@ -67,7 +67,7 @@ class WxRedpack{
             'wishing'           => '祝您天天开心！',
             'client_ip'         => self::getip(),
             'act_name'          => $act_name,
-            'remark'            => '章鱼'
+            'remark'            => '章鱼' //备注
         );
         
         $data['sign'] = self::makeSign($data);
