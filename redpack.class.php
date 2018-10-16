@@ -57,7 +57,7 @@ class WxRedpack{
         
         $data = array(
             'nonce_str'         => self::getNonceStr(),
-            'mch_billno'        => $trade_no,
+            'mch_billno'        => $trade_no, //订单编号
             'mch_id'            => $config['mch_id'], //商户号
             'wxappid'           => $config['wxappid'], //appid
             'send_name'         => '章鱼', //发送姓名
