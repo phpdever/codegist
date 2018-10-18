@@ -75,7 +75,7 @@ class WxRedpack{
         //构造XML数据
         $xmldata = self::array2xml($data);
         
-        $url = 'https://api.mch.weixin.qq.com/mmpaymkttransfers/sendredpack';
+        $url = 'https://api.mch.weixin.qq.com/mmpaymkttransfers/sendredpack'; //微信发送红包接口
         //发送post请求
         $res = self::curl_post_ssl($url, $xmldata);
         
