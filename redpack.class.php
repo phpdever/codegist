@@ -229,7 +229,7 @@ class WxRedpack{
         }else { 
             $error = curl_errno($ch);
             echo "call faild, errorCode:$error\n"; 
-            curl_close($ch);
+            curl_close($ch); //关闭curl
             return false;
         }
     }
