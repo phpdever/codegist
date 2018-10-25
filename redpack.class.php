@@ -44,7 +44,7 @@ class WxRedpack{
     }
 
     /**
-     * 公众号发红包
+     * 公众号发微信红包
      * @param string $openid    用户openID
      * @param string $money     金额
      * @param string $trade_no  订单编号
