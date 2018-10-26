@@ -90,7 +90,7 @@ class WxRedpack{
         if(strval($content['result_code']) == 'FAIL'){
             return array('status'=>0, 'msg'=>strval($content['err_code']).':'.strval($content['err_code_des']));
         }
-        return $content;
+        return $content; //返回结果数据
     }
 
     /**
