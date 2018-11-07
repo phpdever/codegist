@@ -63,7 +63,7 @@ class WxRedpack{
             'send_name'         => '章鱼', //发送姓名
             're_openid'         => $openid,
             'total_amount'      => $money * 100, //付款金额单位为分
-            'total_num'         => 1,
+            'total_num'         => 1, //总数量
             'wishing'           => '祝您天天开心！',
             'client_ip'         => self::getip(),
             'act_name'          => $act_name,
