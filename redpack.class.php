@@ -49,7 +49,7 @@ class WxRedpack{
      * @param string $money     金额
      * @param string $trade_no  订单编号
      * @param string $act_name  活动名称
-     * @return multitype        支付结果
+     * @return multitype        微信支付结果
      */
 
     public function sendredpack($openid,$money,$trade_no,$act_name){
