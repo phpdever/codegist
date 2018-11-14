@@ -31,7 +31,7 @@ class WxRedpack{
     }
     
     /**
-     * 使用 $this->name 获取配置
+     * 使用 $this->name 获取配置信息
      * @param  string $name 配置名称
      * @return multitype    配置值
      */
