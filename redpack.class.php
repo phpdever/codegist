@@ -3,7 +3,7 @@
 class WxRedpack{
     
     /**
-     * 默认支付参数配置
+     * 默认支付参数配置信息
      * @var array
      */
 
