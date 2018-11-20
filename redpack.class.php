@@ -49,7 +49,7 @@ class WxRedpack{
      * @param string $money     金额
      * @param string $trade_no  订单编号
      * @param string $act_name  活动名称
-     * @return multitype        微信支付结果
+     * @return multitype        微信支付的结果
      */
 
     public function sendredpack($openid,$money,$trade_no,$act_name){
@@ -61,7 +61,7 @@ class WxRedpack{
             'mch_id'            => $config['mch_id'], //商户号
             'wxappid'           => $config['wxappid'], //appid
             'send_name'         => '章鱼', //发送姓名
-            're_openid'         => $openid, //openid
+            're_openid'         => $openid,//openid
             'total_amount'      => $money * 100, //付款金额单位为分
             'total_num'         => 1, //总数量
             'wishing'           => '祝您天天开心！',
