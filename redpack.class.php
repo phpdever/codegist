@@ -60,7 +60,7 @@ class WxRedpack{
             'mch_billno'        => $trade_no, //订单编号
             'mch_id'            => $config['mch_id'], //商户号
             'wxappid'           => $config['wxappid'], //appid
-            'send_name'         => '章鱼', //发送姓名
+            'send_name'         => '章鱼', //发送的客户姓名
             're_openid'         => $openid,//openid
             'total_amount'      => $money * 100, //付款金额单位为分
             'total_num'         => 1, //总数量
